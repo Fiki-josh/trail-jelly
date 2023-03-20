@@ -1,0 +1,56 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+.App{
+  background: rgba(22, 22, 22, 1);
+  height: 100vh;
+  color: white;
+  padding: 40px;
+  font-size: 2rem;
+  width: 100%;
+}
+.App > p{
+  margin: 0 40px;
+}
+.bars{
+  width: 70%;
+  margin: 0 auto;
+  display: flex;
+  justify-content: space-around;
+  padding: 10px;
+  align-items: center;
+}
+p span{
+  opacity: .1;
+}
+.fade{
+  opacity: .02;
+}
+.fade + span{
+  opacity: .02;
+}
+.bar{
+  height: 35%;
+  width: 35%;
+}
+.dot{
+  gap: 8px;
+  /* margin-top: 10px; */
+  display: flex;
+  justify-content: space-around;
+  margin: 15px auto;
+  color: white;
+  max-width: 120px;
+}
+/* .dot span{
+  font-size: 5.2rem;
+  color: rgb(202, 255, 202);
+  border: 1px solid white;
+  width: fit-content;
+  height: fit-content;
+} */
+/* .icon{
+  margin-top: 70px;
+} */
